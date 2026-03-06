@@ -194,7 +194,7 @@ img { max-width: 100%; display: block; }
 
 .profile-badge {
     position: absolute;
-    bottom: 20px;
+    bottom: 1px;
     right: 20px;
     background: var(--bg-color);
     padding: 10px 20px;
@@ -920,3 +920,4 @@ footer {
 .experience-image-placeholder:hover {
     border-color: var(--accent);
 }
+
