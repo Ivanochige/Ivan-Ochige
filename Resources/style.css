@@ -919,8 +919,8 @@ footer {
         font-size: 1.1rem;
     }
     .company-logo-box {
-        width: 20px;
-        height: 20px;
+        width: 60px;
+        height: 60px;
     }
     .company-logo-box i {
         font-size: 1px;
@@ -975,5 +975,6 @@ footer {
 .experience-image-placeholder:hover {
     border-color: var(--accent);
 }
+
 
 
