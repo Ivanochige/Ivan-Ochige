@@ -976,5 +976,143 @@ footer {
     border-color: var(--accent);
 }
 
+/* ===============================
+   SMALL QUICK STATS
+================================ */
+
+.quick-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+/* Small stat buttons */
+.quick-stats .stat-card {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 16px;
+  border-radius: 50px; /* pill shape */
+  background: linear-gradient(135deg, #4e73df, #1cc88a); /* match button */
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 15px rgba(78, 115, 223, 0.35);
+}
+
+/* Hover effect */
+.quick-stats .stat-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(78, 115, 223, 0.45);
+}
+
+/* Value styling */
+.stat-value {
+  font-weight: 700;
+  font-size: 15px;
+}
+
+/* Icon */
+.stat-icon {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ===============================
+   SKILLS
+================================ */
+/* ===== Section Styling ===== */
+.technical-section {
+    margin-top: 60px;
+    /*max-width: 1100px;*/
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+}
+
+.technical-section h3 {
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 40px;
+    font-weight: 600;
+    color: #1f2937;
+}
+
+/* ===== Grid Layout ===== */
+.technical-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 25px;
+    justify-items: center;
+}
+
+/* ===== Circular Skill ===== */
+.technical-circle {
+    position: relative;
+    width: 160px;
+    height: 160px;
+}
+
+.technical-circle svg {
+    transform: rotate(-90deg);
+}
+
+.technical-circle circle {
+    fill: none;
+    stroke-width: 12;
+    stroke-linecap: round;
+}
+
+.technical-bg {
+    stroke: #e5e7eb;
+}
+
+.technical-progress {
+    stroke-dasharray: 440;
+    stroke-dashoffset: 440;
+    transition: stroke-dashoffset 1.5s ease;
+}
+
+/* ===== Technical Content ===== */
+.technical-content {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.technical-content img {
+    width: 28px;
+    margin-bottom: 6px;
+}
+
+.technical-percent {
+    font-size: 20px;
+    font-weight: bold;
+    color: #111827;
+}
+
+.technical-name {
+    font-size: 14px;
+    color: #6b7280;
+}
+
+/* ===== Premium Hover Effect ===== */
+.technical-circle:hover {
+    transform: translateY(-6px);
+    transition: 0.3s ease;
+}
+
+
 
 
