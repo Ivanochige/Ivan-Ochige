@@ -1121,17 +1121,17 @@ footer {
     }
 }
 
-/*=======================================================*/
+/*========================================================================================*/
 section {
     scroll-margin-top: var(--nav-height);
 }
 
-input:invalid {
-    border-color: #ef4444;
+input:not(:placeholder-shown):valid {
+    border-color: #10b981;
 }
 
-input:valid {
-    border-color: #10b981;
+input:not(:placeholder-shown):invalid {
+    border-color: #ef4444;
 }
 
 a:focus,
@@ -1139,6 +1139,7 @@ button:focus {
     outline: 2px solid var(--accent);
     outline-offset: 2px;
 }
+
 
 
 
