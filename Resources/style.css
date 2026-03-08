@@ -1113,6 +1113,14 @@ footer {
     transition: 0.3s ease;
 }
 
+/* ===== Responsive ===== */
+@media (max-width: 600px) {
+    .technical-section {
+        padding: 25px;
+    }
+}
+
+
 
 
 
