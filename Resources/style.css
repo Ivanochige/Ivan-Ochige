@@ -1116,9 +1116,10 @@ footer {
 /* ===== Responsive ===== */
 @media (max-width: 600px) {
     .technical-section {
-        padding: 25px;
+        padding: 5px;
     }
 }
+
 
 
 
