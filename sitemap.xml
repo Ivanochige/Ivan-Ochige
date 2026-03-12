@@ -3,14 +3,7 @@
 
 <url>
 <loc>https://ivanochige.com/</loc>
-</url>
-
-<url>
-<loc>https://ivanochige.com/#home</loc>
-</url>
-
-<url>
-<loc>https://ivanochige.com/#contact</loc>
+<priority>1.0</priority>
 </url>
 
 </urlset>
