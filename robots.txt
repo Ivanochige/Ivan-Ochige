@@ -1,4 +1,12 @@
 User-agent: *
 Allow: /
 
+# Allow important crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Sitemap location
 Sitemap: https://ivanochige.com/sitemap.xml
