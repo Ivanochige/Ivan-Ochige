@@ -1100,7 +1100,7 @@ footer {
 .technical-percent {
     font-size: 20px;
     font-weight: bold;
-    color: #111827;
+    /*color: #111827; */
 }
 
 .technical-name {
