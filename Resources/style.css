@@ -831,7 +831,6 @@ footer {
     }
     .about-image {
         order: -1;
-        object-fit: cover;
     }
     .timeline-item {
         flex-direction: column;
