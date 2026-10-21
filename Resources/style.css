@@ -831,8 +831,6 @@ footer {
     }
     .about-image {
         order: -1;
-        width: 180px;
-        height: 180px;
         object-fit: cover;
     }
     .timeline-item {
